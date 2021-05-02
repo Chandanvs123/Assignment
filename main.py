@@ -1,7 +1,7 @@
 from input import *
 
 def test(request):
-    name = request.get_json().get('a','b')
+    name = request.get_json().get(a,b)
     return "Inputs received"
 
 def sort_comb(a,b):
