@@ -14,4 +14,4 @@ Step 5:
   --trigger-http \                #The function will be triggered by a http request
   --timeout 180s \                #Given the time restriction of 180 seconds
   --allow-unauthenticated         #To allow unauthenticated access
-q
+
