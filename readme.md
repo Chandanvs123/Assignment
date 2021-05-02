@@ -9,7 +9,7 @@
   - A cloud function is created for combining and sorting the arrays
 - **Step 5:**
   - The cloud function is deployed using the defined name and the parameters should be defined as below:
-  - --entry-point=inputs \
+  - --entry-point=input \
   - --runtime python37 \            #Defining the runtime
   - --trigger-http \                #The function will be triggered by a http request
   - --timeout 180s \                #Given the time restriction of 180 seconds
